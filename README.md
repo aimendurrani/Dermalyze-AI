@@ -1,7 +1,7 @@
-#Dermalyze – AI-Powered Skin Lesion Detection App
+**Dermalyze – AI-Powered Skin Lesion Detection App**
 Dermalyze is a mobile application designed to help users detect skin lesions using artificial intelligence. By capturing a photo of a lesion, users can instantly receive predictions about the type of skin condition. The app uses a deep learning model trained on the HAM10000 dataset and is optimized for real-world use through focal loss and transfer learning with MobileNetV2.
 
-Features
+**Features**
 Image capture and lesion classification directly within the app
 
 AI-powered predictions using a trained convolutional neural network
@@ -14,7 +14,7 @@ Offline model prediction using TensorFlow Lite
 
 Firebase-based user authentication and image/report storage
 
-Supported Lesion Classes
+**Supported Lesion Classes**
 The model is trained to detect the following seven types of skin lesions:
 
 Melanocytic nevi (nv)
@@ -31,7 +31,7 @@ Vascular lesions (vasc)
 
 Dermatofibroma (df)
 
-AI Model Overview
+**AI Model Overview**
 Dataset: HAM10000
 
 Model Base: MobileNetV2 (pretrained on ImageNet)
@@ -46,7 +46,7 @@ Evaluation Metrics: Accuracy, Precision, Recall, F1-score, Top-2 and Top-3 Accur
 
 Deployment Format: .tflite model used in Android app
 
-Source Code and Training
+**Source Code and Training**
 The core AI code was adapted from the Skin-Lesion-Analyzer project.
 Modifications include:
 
@@ -58,7 +58,7 @@ Exported trained model to .tflite for mobile deployment
 
 You can find the training notebook in this repository under ai-project.ipynb.
 
-App Development
+**App Development**
 Built in Android Studio using Kotlin
 
 Integrated the TFLite model using TensorFlow Lite
@@ -73,14 +73,14 @@ Report generation and saving
 
 UI designed to match a clean, user-friendly experience
 
-Results
+**Results**
 Previous baseline accuracy: ~37%
 
 Improved accuracy after model updates and focal loss: ~94% categorical accuracy
 
 High performance on underrepresented classes as well
 
-Getting Started
+**Getting Started**
 Clone this repository
 
 Open the Android app folder in Android Studio
@@ -91,5 +91,5 @@ Add your Firebase configuration
 
 Run the app on a physical Android device or emulator
 
-License
+**License**
 This project is released under the MIT License.
