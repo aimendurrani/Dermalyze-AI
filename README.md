@@ -94,5 +94,5 @@ Add your Firebase configuration
 
 Run the app on a physical Android device or emulator
 
-**License**
+# **License**
 This project is released under the MIT License.
