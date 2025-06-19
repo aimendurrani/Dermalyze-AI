@@ -2,7 +2,7 @@
 
 Dermalyze is a mobile application designed to help users detect skin lesions using artificial intelligence. By capturing a photo of a lesion, users can instantly receive predictions about the type of skin condition. The app uses a deep learning model trained on the HAM10000 dataset and is optimized for real-world use through focal loss and transfer learning with MobileNetV2.
 
-**Features**
+# **Features**
 Image capture and lesion classification directly within the app
 
 AI-powered predictions using a trained convolutional neural network
@@ -15,7 +15,7 @@ Offline model prediction using TensorFlow Lite
 
 Firebase-based user authentication and image/report storage
 
-**Supported Lesion Classes**
+# **Supported Lesion Classes**
 The model is trained to detect the following seven types of skin lesions:
 
 Melanocytic nevi (nv)
@@ -32,24 +32,26 @@ Vascular lesions (vasc)
 
 Dermatofibroma (df)
 
-**AI Model Overview**
-Dataset: HAM10000
+# **AI Model Overview**
+**Dataset:** [HAM10000](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)
 
-Model Base: MobileNetV2 (pretrained on ImageNet)
 
-Modifications: Custom classification head added, base layers frozen
+**Model Base:** MobileNetV2 (pretrained on ImageNet)
 
-Loss Function: Focal Loss (added to address class imbalance and improve accuracy)
+**Modifications:** Custom classification head added, base layers frozen
 
-Optimizer: Adam (learning rate = 0.001)
+**Loss Function:** Focal Loss (added to address class imbalance and improve accuracy)
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score, Top-2 and Top-3 Accuracy
+**Optimizer:** Adam (learning rate = 0.001)
 
-Deployment Format: .tflite model used in Android app
+**Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Top-2 and Top-3 Accuracy
 
-**Source Code and Training**
-The core AI code was adapted from the Skin-Lesion-Analyzer project.
-Modifications include:
+**Deployment Format:** .tflite model used in Android app
+
+# **Source Code and Training**
+The core AI code was adapted from the [Skin-Lesion-Analyzer project](https://github.com/vbookshelf/Skin-Lesion-Analyzer)
+
+**Modifications include:**
 
 Added Focal Loss to handle class imbalance
 
@@ -64,7 +66,7 @@ Built in Android Studio using Kotlin
 
 Integrated the TFLite model using TensorFlow Lite
 
-Firebase used for:
+**Firebase used for:**
 
 User authentication
 
