@@ -62,7 +62,7 @@ Exported trained model to .tflite for mobile deployment
 You can find the training notebook in this repository under ai-project.ipynb.
 
 # **App Development**
-Built in Android Studio using Kotlin
+Built in Android Studio using Java
 
 Integrated the TFLite model using TensorFlow Lite
 
