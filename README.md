@@ -1,4 +1,4 @@
-****Dermalyze – AI-Powered Skin Lesion Detection App****
+# **Dermalyze – AI-Powered Skin Lesion Detection App**
 
 Dermalyze is a mobile application designed to help users detect skin lesions using artificial intelligence. By capturing a photo of a lesion, users can instantly receive predictions about the type of skin condition. The app uses a deep learning model trained on the HAM10000 dataset and is optimized for real-world use through focal loss and transfer learning with MobileNetV2.
 
