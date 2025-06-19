@@ -77,13 +77,12 @@ Report generation and saving
 UI designed to match a clean, user-friendly experience
 
 **Results**
-Previous baseline accuracy: ~37%
 
 Improved accuracy after model updates and focal loss: ~94% categorical accuracy
 
 High performance on underrepresented classes as well
 
-**Getting Started**
+# **Getting Started**
 Clone this repository
 
 Open the Android app folder in Android Studio
