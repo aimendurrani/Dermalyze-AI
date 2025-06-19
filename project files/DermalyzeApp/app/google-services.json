@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928003694404",
+    "project_id": "dermalyzeapp-621e3",
+    "storage_bucket": "dermalyzeapp-621e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928003694404:android:b43501b04d32e2c3e58111",
+        "android_client_info": {
+          "package_name": "com.example.dermalyzeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7QEfF2fj_8M0_xvp7uZNik8kSY6Bkox0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
